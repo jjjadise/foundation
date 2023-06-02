@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEABCF522A2130E100F87174 /* esqueletoaAlterarNome.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEABCF512A2130E100F87174 /* esqueletoaAlterarNome.swift */; };
+		CEABCF542A2130E100F87174 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEABCF532A2130E100F87174 /* ContentView.swift */; };
+		CEABCF562A2130E200F87174 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEABCF552A2130E200F87174 /* Assets.xcassets */; };
+		CEABCF592A2130E200F87174 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEABCF582A2130E200F87174 /* Preview Assets.xcassets */; };
+		CEABCF632A2130E200F87174 /* esqueletoButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEABCF622A2130E200F87174 /* esqueletoButtonTests.swift */; };
+		CEABCF6D2A2130E200F87174 /* esqueletoButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEABCF6C2A2130E200F87174 /* esqueletoButtonUITests.swift */; };
+		CEABCF6F2A2130E200F87174 /* esqueletoButtonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEABCF6E2A2130E200F87174 /* esqueletoButtonUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEABCF5F2A2130E200F87174 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEABCF462A2130E100F87174 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEABCF4D2A2130E100F87174;
+			remoteInfo = esqueletoButton;
+		};
+		CEABCF692A2130E200F87174 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEABCF462A2130E100F87174 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEABCF4D2A2130E100F87174;
+			remoteInfo = esqueletoButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEABCF4E2A2130E100F87174 /* esqueletoButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = esqueletoButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEABCF512A2130E100F87174 /* esqueletoaAlterarNome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = esqueletoaAlterarNome.swift; sourceTree = "<group>"; };
+		CEABCF532A2130E100F87174 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CEABCF552A2130E200F87174 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEABCF582A2130E200F87174 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEABCF5E2A2130E200F87174 /* esqueletoButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = esqueletoButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEABCF622A2130E200F87174 /* esqueletoButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = esqueletoButtonTests.swift; sourceTree = "<group>"; };
+		CEABCF682A2130E200F87174 /* esqueletoButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = esqueletoButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEABCF6C2A2130E200F87174 /* esqueletoButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = esqueletoButtonUITests.swift; sourceTree = "<group>"; };
+		CEABCF6E2A2130E200F87174 /* esqueletoButtonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = esqueletoButtonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEABCF4B2A2130E100F87174 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEABCF5B2A2130E200F87174 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEABCF652A2130E200F87174 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEABCF452A2130E100F87174 = {
+			isa = PBXGroup;
+			children = (
+				CEABCF502A2130E100F87174 /* esqueletoButton */,
+				CEABCF612A2130E200F87174 /* esqueletoButtonTests */,
+				CEABCF6B2A2130E200F87174 /* esqueletoButtonUITests */,
+				CEABCF4F2A2130E100F87174 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEABCF4F2A2130E100F87174 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEABCF4E2A2130E100F87174 /* esqueletoButton.app */,
+				CEABCF5E2A2130E200F87174 /* esqueletoButtonTests.xctest */,
+				CEABCF682A2130E200F87174 /* esqueletoButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEABCF502A2130E100F87174 /* esqueletoButton */ = {
+			isa = PBXGroup;
+			children = (
+				CEABCF512A2130E100F87174 /* esqueletoaAlterarNome.swift */,
+				CEABCF532A2130E100F87174 /* ContentView.swift */,
+				CEABCF552A2130E200F87174 /* Assets.xcassets */,
+				CEABCF572A2130E200F87174 /* Preview Content */,
+			);
+			path = esqueletoButton;
+			sourceTree = "<group>";
+		};
+		CEABCF572A2130E200F87174 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CEABCF582A2130E200F87174 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CEABCF612A2130E200F87174 /* esqueletoButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEABCF622A2130E200F87174 /* esqueletoButtonTests.swift */,
+			);
+			path = esqueletoButtonTests;
+			sourceTree = "<group>";
+		};
+		CEABCF6B2A2130E200F87174 /* esqueletoButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEABCF6C2A2130E200F87174 /* esqueletoButtonUITests.swift */,
+				CEABCF6E2A2130E200F87174 /* esqueletoButtonUITestsLaunchTests.swift */,
+			);
+			path = esqueletoButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEABCF4D2A2130E100F87174 /* esqueletoButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEABCF722A2130E200F87174 /* Build configuration list for PBXNativeTarget "esqueletoButton" */;
+			buildPhases = (
+				CEABCF4A2A2130E100F87174 /* Sources */,
+				CEABCF4B2A2130E100F87174 /* Frameworks */,
+				CEABCF4C2A2130E100F87174 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = esqueletoButton;
+			productName = esqueletoButton;
+			productReference = CEABCF4E2A2130E100F87174 /* esqueletoButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEABCF5D2A2130E200F87174 /* esqueletoButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEABCF752A2130E200F87174 /* Build configuration list for PBXNativeTarget "esqueletoButtonTests" */;
+			buildPhases = (
+				CEABCF5A2A2130E200F87174 /* Sources */,
+				CEABCF5B2A2130E200F87174 /* Frameworks */,
+				CEABCF5C2A2130E200F87174 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEABCF602A2130E200F87174 /* PBXTargetDependency */,
+			);
+			name = esqueletoButtonTests;
+			productName = esqueletoButtonTests;
+			productReference = CEABCF5E2A2130E200F87174 /* esqueletoButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEABCF672A2130E200F87174 /* esqueletoButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEABCF782A2130E200F87174 /* Build configuration list for PBXNativeTarget "esqueletoButtonUITests" */;
+			buildPhases = (
+				CEABCF642A2130E200F87174 /* Sources */,
+				CEABCF652A2130E200F87174 /* Frameworks */,
+				CEABCF662A2130E200F87174 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEABCF6A2A2130E200F87174 /* PBXTargetDependency */,
+			);
+			name = esqueletoButtonUITests;
+			productName = esqueletoButtonUITests;
+			productReference = CEABCF682A2130E200F87174 /* esqueletoButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEABCF462A2130E100F87174 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					CEABCF4D2A2130E100F87174 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					CEABCF5D2A2130E200F87174 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = CEABCF4D2A2130E100F87174;
+					};
+					CEABCF672A2130E200F87174 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = CEABCF4D2A2130E100F87174;
+					};
+				};
+			};
+			buildConfigurationList = CEABCF492A2130E100F87174 /* Build configuration list for PBXProject "esqueletoButton" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEABCF452A2130E100F87174;
+			productRefGroup = CEABCF4F2A2130E100F87174 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEABCF4D2A2130E100F87174 /* esqueletoButton */,
+				CEABCF5D2A2130E200F87174 /* esqueletoButtonTests */,
+				CEABCF672A2130E200F87174 /* esqueletoButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEABCF4C2A2130E100F87174 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEABCF592A2130E200F87174 /* Preview Assets.xcassets in Resources */,
+				CEABCF562A2130E200F87174 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEABCF5C2A2130E200F87174 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEABCF662A2130E200F87174 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEABCF4A2A2130E100F87174 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEABCF542A2130E100F87174 /* ContentView.swift in Sources */,
+				CEABCF522A2130E100F87174 /* esqueletoaAlterarNome.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEABCF5A2A2130E200F87174 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEABCF632A2130E200F87174 /* esqueletoButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEABCF642A2130E200F87174 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEABCF6F2A2130E200F87174 /* esqueletoButtonUITestsLaunchTests.swift in Sources */,
+				CEABCF6D2A2130E200F87174 /* esqueletoButtonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEABCF602A2130E200F87174 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEABCF4D2A2130E100F87174 /* esqueletoButton */;
+			targetProxy = CEABCF5F2A2130E200F87174 /* PBXContainerItemProxy */;
+		};
+		CEABCF6A2A2130E200F87174 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEABCF4D2A2130E100F87174 /* esqueletoButton */;
+			targetProxy = CEABCF692A2130E200F87174 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CEABCF702A2130E200F87174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEABCF712A2130E200F87174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEABCF732A2130E200F87174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"esqueletoButton/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jadis3.esqueletoButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEABCF742A2130E200F87174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"esqueletoButton/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jadis3.esqueletoButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEABCF762A2130E200F87174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jadis3.esqueletoButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/esqueletoButton.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/esqueletoButton";
+			};
+			name = Debug;
+		};
+		CEABCF772A2130E200F87174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jadis3.esqueletoButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/esqueletoButton.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/esqueletoButton";
+			};
+			name = Release;
+		};
+		CEABCF792A2130E200F87174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jadis3.esqueletoButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = esqueletoButton;
+			};
+			name = Debug;
+		};
+		CEABCF7A2A2130E200F87174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jadis3.esqueletoButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = esqueletoButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEABCF492A2130E100F87174 /* Build configuration list for PBXProject "esqueletoButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEABCF702A2130E200F87174 /* Debug */,
+				CEABCF712A2130E200F87174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEABCF722A2130E200F87174 /* Build configuration list for PBXNativeTarget "esqueletoButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEABCF732A2130E200F87174 /* Debug */,
+				CEABCF742A2130E200F87174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEABCF752A2130E200F87174 /* Build configuration list for PBXNativeTarget "esqueletoButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEABCF762A2130E200F87174 /* Debug */,
+				CEABCF772A2130E200F87174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEABCF782A2130E200F87174 /* Build configuration list for PBXNativeTarget "esqueletoButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEABCF792A2130E200F87174 /* Debug */,
+				CEABCF7A2A2130E200F87174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEABCF462A2130E100F87174 /* Project object */;
+}
